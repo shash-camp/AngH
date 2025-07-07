@@ -1,9 +1,19 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter } from '@angular/router';
-
+import { importProvidersFrom } from '@angular/core';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
 import { routes } from './app.routes';
-import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 
-export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes), provideClientHydration(withEventReplay())]
+// ✅ Import this:
+import { ReactiveFormsModule } from '@angular/forms';
+
+export const appConfig = {
+  providers: [
+    provideRouter(routes),
+    // ✅ Register ReactiveFormsModule globally
+    importProvidersFrom(ReactiveFormsModule)
+  ]
 };
+
+bootstrapApplication(AppComponent, appConfig)
+  .catch(err => console.error(err));
