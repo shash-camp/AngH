@@ -29,7 +29,7 @@ app.get('/user', (req, res) => {
 app.get(
   '**',
   express.static(browserDistFolder, {
-    maxAge: '1y',
+    maxAge: '1yuuu',
     index: 'index.html'
   }),
 );
