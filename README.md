@@ -57,3 +57,27 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+development branch (base)
+      ↓
+1. Fetch origin → Switch to 'development'
+      ↓
+2. Create new branch (from development)
+      ↓
+3. Make code changes → Commit changes in GitHub Desktop
+      ↓
+4. Push branch to GitHub (GitHub Desktop shows a push button)
+      ↓
+5. Click "Create Pull Request" → GitHub opens in browser
+      ↓
+6. Fill PR title & description → Create PR (feature-x → development)
+      ↓
+7. Team reviews PR → Click "Merge Pull Request" on GitHub
+      ↓
+8. Back in GitHub Desktop → Switch to 'development' → Fetch origin
+      ↓
+9. Delete old branch (GitHub Desktop will prompt after merge)
+      ↓
+10. Start next task → Create new branch again from 'development'
+
