@@ -60,6 +60,30 @@ For more information on using the Angular CLI, including detailed command refere
 
 
 
+
 //HII MY SELF SHASHANK KUMAR SINGH
 //hii for testing purpose 
 // My college name is Galgotia's
+
+development branch (base)
+      ↓
+1. Fetch origin → Switch to 'development'
+      ↓
+2. Create new branch (from development)
+      ↓
+3. Make code changes → Commit changes in GitHub Desktop
+      ↓
+4. Push branch to GitHub (GitHub Desktop shows a push button)
+      ↓
+5. Click "Create Pull Request" → GitHub opens in browser
+      ↓
+6. Fill PR title & description → Create PR (feature-x → development)
+      ↓
+7. Team reviews PR → Click "Merge Pull Request" on GitHub
+      ↓
+8. Back in GitHub Desktop → Switch to 'development' → Fetch origin
+      ↓
+9. Delete old branch (GitHub Desktop will prompt after merge)
+      ↓
+10. Start next task → Create new branch again from 'development'
+
