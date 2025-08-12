@@ -87,3 +87,4 @@ development branch (base)
       ↓
 10. Start next task → Create new branch again from 'development'
 
+https://chatgpt.com/share/689b85e1-a710-8001-8c4c-a012bf7c4d0c
